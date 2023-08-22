@@ -1,0 +1,49 @@
+img{
+  position:absolute;
+left:40px;
+top:35px;
+}
+
+
+ul {
+  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  display: inline-block;
+  list-style-type: none;
+  border: 0;
+  
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgba(0,0,0,.3);
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,.3);
+  color: white;
+  text-align: center;
+}
+
+
