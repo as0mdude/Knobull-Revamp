@@ -8,10 +8,15 @@ const Layout = () => {
       
       <nav>
       
-      <img src = {knobull} alt = "banner" height={70} width={210}></img>
+            <img src = {knobull} alt = "banner" height={70} width={210}></img>
+          
+      
         <ul>
           <li>
             <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/search">Search</Link>
           </li>
           
           <li>

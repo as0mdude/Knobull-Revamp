@@ -7,6 +7,7 @@ import PrayerGet from "./pages/PrayerGet";
 import NoPage from "./pages/NoPage";
 import About from "./pages/About";
 import Resources from "./pages/Resources";
+import Search from "./pages/Search";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="*" element={<NoPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/search" element={<Search />} />
         </Route>
       </Routes>
     </BrowserRouter>
