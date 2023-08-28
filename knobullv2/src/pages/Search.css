@@ -1,3 +1,49 @@
-.Search h3{
-    margin-top: 30%;
+.searchtext h3{
+    margin-top: 10%;
 }
+
+
+.gsc-control-cse {
+    background-color:transparent !important;
+}
+
+.cse .gsc-webResult.gsc-result.gsc-promotion,
+.gsc-webResult.gsc-result.gsc-promotion {
+    background-color:transparent !important;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
+    border-color:transparent !important;
+    background-color:transparent !important;
+  }
+
+
+  .gsc-results .gsc-cursor-box .gsc-cursor-page {
+    
+    background-color: transparent !important;
+    
+  }
+
+  .gcsc-find-more-on-google-text {
+    
+    visibility: hidden;
+    
+  }
+
+  .gcsc-find-more-on-google-query {
+    visibility: hidden;
+    
+  }
+
+  .gcsc-find-more-on-google-magnifier {
+    visibility: hidden;
+    
+  }
+
+  .gsc-control-cse {
+    border-color: transparent !important;
+    
+  }
+  
