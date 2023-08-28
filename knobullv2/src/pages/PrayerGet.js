@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import PrayerGetComponent from "./PrayerGetComponent";
+
 
 
 
@@ -30,7 +30,7 @@ const PrayerGet = () => {
 
   return (
     <div className="home">
-      {requests && <PrayerGetComponent requests={requests} />}
+      
       
     </div>
   );
