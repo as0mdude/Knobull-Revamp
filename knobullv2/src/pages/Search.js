@@ -7,7 +7,7 @@ const Search = () => {
         useEffect(() => {
           const script = document.createElement("script");
           document.head.append(script);
-          script.src = "https://cse.google.com/cse.js?cx=8326a3bafe911422a";
+          script.src = "https://cse.google.com/cse.js?cx=70c6c2b61ecb04bdb";
         }, []);
     
     return(
